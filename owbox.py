@@ -13,7 +13,7 @@ numberOfBoxes = 84 # Number of lootboxes to open
 time.sleep(3) # Wait for animation
 
 
-pyautogui.moveTo(1017,1307, duration=0.2) # Moves cursor to correct spot
+pyautogui.moveTo(1017,1307, duration=0.2) # Moves cursor to correct spot (Res = 1440p)
 while boxNo <= 84: # Opens boxes as long as user specified
     pyautogui.click()
     time.sleep(8)
